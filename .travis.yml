@@ -8,7 +8,7 @@ cache:
     node_modules
 
 script:
-  - yarn --frozen-lockfile
+  - npm install
   - yarn test 
   - yarn run build
 
