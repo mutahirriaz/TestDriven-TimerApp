@@ -1,0 +1,23 @@
+language: node_js
+
+node_js:
+  - "stable"
+
+cache:
+  dependencies:
+    node_modules
+
+script:
+  - yarn --frozen-lockfile
+  - yarn test 
+  - yarn run build
+
+
+deploy:
+  provider: surge
+  skip_cleanup: true
+  domain: 
+  project: ./build/
+
+on: 
+  branch: master

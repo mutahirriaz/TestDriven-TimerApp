@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main_section{
+    width: 100vw;
+    height: 100vh;
+    background-color: #aeb7c0;
+    
+}
+.clock_holder{
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid #22364f ;
+    text-align: center;
+    margin:  auto;
+    /* margin-top: 70px; */
+    position: relative;
+    top: 80px;
+    background-image: linear-gradient(to right top, #22364f, #20324a, #1e2f46, #1b2b41, #19283d);
+    max-height: 400px;
+    height: 100%;
+}
+.clock_holder h2{
+    color: #3ebee9;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+.stopwatch{
+    border-top: 6px solid #00c9eb;
+    border-right: 6px solid #257ccd;
+    border-bottom: 6px solid #35e0ec ;
+    border-left: 6px solid #1e6a88;
+    max-width: 250px;
+    height: 250px;
+    margin: 10px auto;
+    border-radius: 220px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+} 
+
+.watch_button{
+    position: relative;
+    top: 140px;
+    text-align: center;
+    margin: auto;
+}
+
+.start_button{
+    padding: 10px 20px 10px 20px;
+    transition: 0.2s ease-in-out;
+    outline: none;
+    border-radius: 8px !important;
+    background-color: rgb(25, 238, 132);
+    font-weight: bold;
+}
+.start_button:hover{
+    background-color: rgb(57, 218, 196) !important;
+    cursor: pointer  !important;
+}
+.stop_button{
+    padding: 10px 20px 10px 20px;
+    transition: 0.2s ease-in-out;
+    outline: none;
+    border-radius: 8px !important;
+    background-color: rgb(25, 238, 132);
+    font-weight: bold;
+}
+.stop_button:hover{
+    background-color: rgb(57, 218, 196) !important;
+    cursor: pointer  !important;
+}
+.reset_button{
+    padding: 10px 20px 10px 20px;
+    transition: 0.2s ease-in-out;
+    outline: none;
+    border-radius: 8px !important;
+    background-color: rgb(25, 238, 132);
+    font-weight: bold;
+}
+.reset_button:hover{
+    background-color: rgb(57, 218, 196) !important;
+    cursor: pointer  !important;
+}
+.resume_button{
+    padding: 10px 20px 10px 20px;
+    transition: 0.2s ease-in-out;
+    outline: none;
+    border-radius: 8px !important;
+    background-color: rgb(25, 238, 132);
+    font-weight: bold;
+}
+.resume_button:hover{
+    background-color: rgb(57, 218, 196) !important;
+    cursor: pointer  !important;
+}
+.mili-second{
+    color: #28ffe9;
+}
+.minutes{
+    color: #28ffe9;
+}
+.seconds{
+    color: #28ffe9;
+
+}
+.time_number{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   background: fixed !important;
+}
+.button_space1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+}
+.button_space2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+}
